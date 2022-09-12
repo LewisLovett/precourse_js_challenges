@@ -39,3 +39,13 @@ const getLastName = (names) =>{
 
 console.log(getLastName(['Charlie', 'Rob', 'Andy']));
 console.log(getLastName(['Ash', 'Stu']));
+
+const allNumbersPositive = (numbers) =>{
+    for(let i = 0; i < numbers.length; i++){
+        if(numbers[i]< 0){
+            return false;
+        }
+    }
+    return true; 
+
+}
