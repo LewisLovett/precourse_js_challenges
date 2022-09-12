@@ -8,3 +8,9 @@ const isNumberPositive = (num) => {
 
 console.log(isNumberPositive(-1));
 console.log(isNumberPositive(10));
+
+convertDaysToAge = (age) => {
+    return (Math.floor(age/365));
+}
+
+console.log()
