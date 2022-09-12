@@ -32,3 +32,7 @@ const getLargestNumber = (x,y,z) => {
 
 console.log(getLargestNumber(2,1,4));
 console.log(getLargestNumber(6,2,3));
+
+const getLastName = (names) =>{
+    return names[names.length - 1];
+} 
