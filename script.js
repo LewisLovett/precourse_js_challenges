@@ -49,3 +49,6 @@ const allNumbersPositive = (numbers) =>{
     return true; 
 
 }
+
+console.log(allNumbersPositive([2,4,5]));
+console.log(allNumbersPositive([-5,4,6]));
