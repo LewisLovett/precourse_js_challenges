@@ -5,3 +5,6 @@ const isNumberPositive = (num) => {
         return false;
     }
 }
+
+console.log(isNumberPositive(-1));
+console.log(isNumberPositive(10));
