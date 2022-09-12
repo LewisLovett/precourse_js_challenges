@@ -20,6 +20,8 @@ const getLargestNumber = (x,y,z) => {
     if(x>y){
         if(x>z){
             return x;
+        }else{
+            return z;
         }
     }else if(y>z){
         return y;
@@ -27,3 +29,6 @@ const getLargestNumber = (x,y,z) => {
         return z;
     }
 }
+
+console.log(getLargestNumber(2,1,4));
+console.log(getLargestNumber(6,2,3));
