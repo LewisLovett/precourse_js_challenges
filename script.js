@@ -13,4 +13,5 @@ convertDaysToAge = (age) => {
     return (Math.floor(age/365));
 }
 
-console.log()
+console.log(convertDaysToAge(3650));
+console.log(convertDaysToAge(6570));
